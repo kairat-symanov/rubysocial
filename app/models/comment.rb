@@ -1,7 +1,7 @@
 class Comment < ApplicationRecord
   belongs_to :post
 
-  validates :body, presence: true
+  validates :body, presence: true, length: { minimum: 10, maximum: 2000 }
 
   def self.comments_for_post(post_id)
     # SELECT "comments".* FROM "comments" WHERE (post_id = 20 and parent_id = 0) ORDER BY id
