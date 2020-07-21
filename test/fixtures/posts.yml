@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: MyString
+  integer: MyString
+  title: MyString
+  string: MyString
+  body: MyString
+  string: MyString
+  created_by: MyString
+  integer: MyString
+  topic_id: MyString
+  integer: MyString
+
+two:
+  id: MyString
+  integer: MyString
+  title: MyString
+  string: MyString
+  body: MyString
+  string: MyString
+  created_by: MyString
+  integer: MyString
+  topic_id: MyString
+  integer: MyString

@@ -17,7 +17,7 @@
         <div class="card-body">
           <h2 class="card-title"><%= post.title %></h2>
           <p class="card-text"><%= post.body.length <= 2000 ? post.body : post.body[0..2000] %></p>
-          <a href="/posts/" class="btn btn-primary">Читать далее &rarr;</a>
+          <a href="/posts/<%= post.id %>" class="btn btn-primary">Читать далее &rarr;</a>
         </div>
         <div class="card-footer text-muted">
           <%= post.created_at %>
